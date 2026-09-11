@@ -1,10 +1,13 @@
 using TechnovaSoulutions.Components;
+using TechnovaSoulutions.Components.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddScoped<DatabaseService>();
 
 var app = builder.Build();
 
