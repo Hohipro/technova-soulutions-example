@@ -1,0 +1,8 @@
+Vorname = input("Wie lautet deim Vorname?")
+Name = input("Wie lautet deim Name?")
+Alter = input("Wie alt bist du?")
+Lieblingsfach = input("was ist dein Lieblingsfach?")
+print (f"Du heisst mit Vornamen {Vorname}.")
+print (f"Dein Nachame lautet {Name}.")
+print (f"Du bist {Alter} jahre alt.")
+print (f"Liblingsfach ist {Lieblingsfach}.")
